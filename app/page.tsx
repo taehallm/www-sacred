@@ -50,6 +50,7 @@ import Message from '@components/Message';
 import MessageViewer from '@components/MessageViewer';
 import MessagesInterface from '@components/examples/MessagesInterface';
 import ModalAlert from '@components/modals/ModalAlert';
+import ModalChess from '@components/modals/ModalChess';
 import ModalCreateAccount from '@components/modals/ModalCreateAccount';
 import ModalError from '@components/modals/ModalError';
 import ModalStack from '@components/ModalStack';
@@ -171,6 +172,7 @@ export default async function Page(props) {
               ]}
             />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="ACCORDION">
@@ -182,6 +184,7 @@ export default async function Page(props) {
               There are two visions of America a half century from now. One is of a society more divided between the haves and the have-nots, a country in which the rich live in gated communities, send their children to expensive schools, and have access to first-rate medical care. Meanwhile, the rest live in a world marked by insecurity, at best mediocre education, and in effect rationed health care―they hope and pray they don't get seriously sick. At the bottom are millions of young people alienated and without hope. I have seen that picture in many developing countries; economists have given it a name, a dual economy, two societies living side by side, but hardly knowing each other, hardly imagining what life is like for the other. Whether we will fall to the depths of some countries, where the gates grow higher and the societies split farther and farther apart, I do not know. It is, however, the nightmare towards which we are slowly marching.
             </Accordion>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="ACTION BUTTONS">
@@ -193,6 +196,7 @@ export default async function Page(props) {
             <br />
             <ActionButton hotkey={<BlockLoader mode={9} />}>Loading</ActionButton>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="ACTION LIST">
@@ -211,6 +215,7 @@ export default async function Page(props) {
               Visit the studio website
             </ActionListItem>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="ALERT BANNER">
@@ -220,6 +225,7 @@ export default async function Page(props) {
           <Card title="EXAMPLE">
             <AlertBanner>When things reach the extreme, they alternate to the opposite.</AlertBanner>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="AVATARS">
@@ -278,6 +284,7 @@ export default async function Page(props) {
               </Indent>
             </Avatar>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="BADGES">
@@ -287,6 +294,7 @@ export default async function Page(props) {
           <Card title="EXAMPLE">
             <Badge>Example</Badge>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="BAR LOADER">
@@ -299,6 +307,7 @@ export default async function Page(props) {
             <BarLoader progress={50} />
             <BarLoader progress={100} />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="BLOCK LOADER">
@@ -330,6 +339,7 @@ export default async function Page(props) {
             <br />
             <BlockLoader mode={11} />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="BLOG POST">
@@ -387,6 +397,7 @@ export default async function Page(props) {
             <br />
             When we understand what order is, I believe we shall better understand what matter is and then what the universe itself is.
           </CardDouble>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="BREADCRUMBS">
@@ -455,6 +466,7 @@ export default async function Page(props) {
               ]}
             />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="BUTTONS">
@@ -468,6 +480,7 @@ export default async function Page(props) {
             <br />
             <Button isDisabled>Disabled Button</Button>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="BUTTON GROUP">
@@ -478,6 +491,7 @@ export default async function Page(props) {
             <ButtonGroup items={[{ body: '16 PX', selected: true }, { body: '32 PX' }, { body: '42 PX' }]} />
             <ButtonGroup isFull items={[{ body: '16 PX', selected: true }, { body: '32 PX' }, { body: '42 PX' }]} />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={false} title="CANVAS PLATFORMER">
@@ -487,6 +501,7 @@ export default async function Page(props) {
           <Card title="EXAMPLE">
             <CanvasPlatformer rows={12} />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={false} title="CANVAS SNAKE">
@@ -496,6 +511,7 @@ export default async function Page(props) {
           <Card title="EXAMPLE">
             <CanvasSnake rows={12} />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="CARDS">
@@ -507,16 +523,19 @@ export default async function Page(props) {
               <Card title="C">To seek the timeless way we must first know the quality without a name. There is a central quality which is the root criterion of life and spirit in a man, a town, a building, or a wilderness. This quality is objective and precise, but it cannot be named.</Card>
             </Card>
           </Card>
+          <br />
           <CardDouble title="Left-A" mode="left">
             <CardDouble title="Right-B" mode="right">
               <CardDouble title="C">The structure of life I have described in buildings - the structure which I believe to be objective - is deeply and inextricably connected with the human person, and with the innermost nature of human feeling.</CardDouble>
             </CardDouble>
           </CardDouble>
+          <br />
           <Card title="Left-A" mode="left">
             <CardDouble title="Right-B" mode="right">
               <Card title="C">We are searching for some kind of harmony between two intangibles: a form which we have not yet designed and a context which we cannot properly describe.</Card>
             </CardDouble>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="CHECKBOX">
@@ -550,6 +569,7 @@ export default async function Page(props) {
             <Checkbox name="24">Grow accustomed to the weight of pressure, for in such a forge is the finest steel tempered.</Checkbox>
             <Checkbox name="25">Thus do we press onward—undaunted and unyielding—in pursuit of a better physical and digital world.</Checkbox>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="CHESSBOARD">
@@ -559,6 +579,7 @@ export default async function Page(props) {
           <Card title="DEFAULT">
             <Chessboard board={Constants.CHESSBOARD_DEFAULT_POSITIONS} />
           </Card>
+          <br />
           <Accordion defaultValue={true} title="BAD BISHOP">
             The “Bad Bishop” describes a bishop locked on squares of its own color by its own pawns, stifling its mobility. In this example from chess.com, Black’s bishop on B-7 is hindered by its own pawns and cannot be freed easily. Coincidentally, Bad Bishop is also one of the best Seattle bars (704 1st Ave), it is known for its creative cocktails and lively atmosphere.
             <br />
@@ -566,6 +587,7 @@ export default async function Page(props) {
             <Card title="BAD BISHOP">
               <Chessboard board={Constants.CHESSBOARD_BAD_BISHOP} />
             </Card>
+            <br />
           </Accordion>
           <Accordion defaultValue={true} title="CHECKMATE">
             In chess, the en passant rule allows a pawn to capture an enemy pawn that has just made a two-square advance, moving to the square it bypassed as if it had only advanced one square. This unique rule prevents a pawn from escaping capture by skipping past an opponent. In the scenario below, White uses en passant to deliver checkmate, leaving Black’s king with no legal moves.
@@ -577,6 +599,7 @@ export default async function Page(props) {
               <Chessboard board={Constants.CHESSBOARD_CHECKMATE} />
             </Card>
           </Accordion>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="CODE BLOCKS">
@@ -622,6 +645,7 @@ int main() {
 }`}
             </CodeBlock>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="COMBOBOX">
@@ -631,6 +655,7 @@ int main() {
           <Card title="COMBOBOX">
             <ComboBox data={Constants.LANDSCAPES} label="SEARCH THE WORLD" />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="DATA TABLE">
@@ -643,6 +668,7 @@ int main() {
           <Card title="UPDATING">
             <UpdatingDataTable data={Constants.SAMPLE_TABLE_DATA_CHANGE_ME} />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="DATE PICKER">
@@ -655,6 +681,7 @@ int main() {
             <br />
             <DatePicker year={2024} month={12} />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="DASHBOARD RADAR EXAMPLE">
@@ -666,6 +693,7 @@ int main() {
           <Card>
             <DashboardRadar />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="DENABASE EXAMPLE">
@@ -673,6 +701,7 @@ int main() {
           <br />
           <br />
           <Denabase />
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="DIALOG">
@@ -697,6 +726,7 @@ int main() {
             <br />
             <br />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="DIVIDER">
@@ -730,6 +760,7 @@ int main() {
             <Divider type="GRADIENT" />
             <br />— Zack Savitzky
           </CardDouble>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="DRAWER">
@@ -758,6 +789,7 @@ int main() {
               </ContentFluid>
             </RowSpaceBetween>
           </CardDouble>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="DROPDOWN MENU">
@@ -844,6 +876,7 @@ int main() {
               </DropdownMenuTrigger>
             </RowSpaceBetween>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="EMPTY STATE">
@@ -853,6 +886,7 @@ int main() {
           <Card title="EXAMPLE">
             <Grid>WORK IN PROGRESS</Grid>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="INPUT">
@@ -871,6 +905,7 @@ int main() {
             <Input autoComplete="off" caretChars="⌫ ERROR" isBlink={false} label="CUSTOM CARET TEXT" name="input_test_single_caret" />
             <Input autoComplete="off" caretChars={<BlockLoader mode={6} />} isBlink={false} label="CUSTOM CARET LOADER" name="input_test_single_caret" />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="FORM">
@@ -899,6 +934,7 @@ int main() {
             <br />
             <Button>Create an account</Button>
           </CardDouble>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="LINK">
@@ -951,6 +987,7 @@ int main() {
               </ol>
             </ol>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="LIST">
@@ -992,6 +1029,7 @@ int main() {
               <ListItem>Six Secret Teachings</ListItem>
             </ul>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="MESSAGES">
@@ -1006,6 +1044,7 @@ int main() {
             <MessageViewer>I guess, yeah.</MessageViewer>
             <Message>So how did we end up here?</Message>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="MESSAGES INTERFACE">
@@ -1015,6 +1054,7 @@ int main() {
           <Card title="MESSAGES">
             <MessagesInterface />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={false} title="MATRIX LOADER">
@@ -1027,6 +1067,7 @@ int main() {
           <Card title="GREEK LTR">
             <MatrixLoader direction="left-to-right" rows={8} mode="greek" />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="MODAL">
@@ -1034,6 +1075,26 @@ int main() {
           <br />
           <br />
           <Card title="EXAMPLE">
+            <ModalTrigger
+              modal={ModalChess}
+              modalProps={{
+                board: [
+                  ['r', '', '', 'q', '', 'b', '', 'r'],
+                  ['p', 'p', 'p', 'b', 'k', ' ', ' ', 'p'],
+                  ['', '', '', 'p', '', '', 'B', ''],
+                  ['', '', '', 'P', 'p', '', 'B', ''],
+                  ['', '', 'P', '', '', '', '', ''],
+                  ['', '', '', '', '', '', '', 'P'],
+                  ['P', 'P', ' ', ' ', ' ', 'P', 'P', ''],
+                  ['R', ' ', ' ', ' ', 'K', '', '', 'R'],
+                ],
+                buttonText: 'CONCEDE',
+                title: `CHECKMATE`,
+              }}
+            >
+              <ActionButton>Render Modal Checkmate</ActionButton>
+            </ModalTrigger>
+
             <ModalTrigger
               modal={ModalAlert}
               modalProps={{
@@ -1102,6 +1163,7 @@ int main() {
               <ActionButton>Error C</ActionButton>
             </ModalTrigger>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="NAVIGATION BAR">
@@ -1166,6 +1228,7 @@ int main() {
               The human brain likes anything that entails a great amount of information. Its excessive capacity waits eagerly to perceive the world by completely exhausting its great receptive powers. That potential power, though, remains today in a state of extreme constriction and is a source of the information stress we're all under.
             </Accordion>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="POPOVER">
@@ -1198,6 +1261,7 @@ int main() {
               </HoverComponentTrigger>
             </RowSpaceBetween>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="PROGRESS BARS">
@@ -1229,6 +1293,7 @@ int main() {
               <BarProgress progress={100} />
             </Card>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="RADIO BUTTONS">
@@ -1274,6 +1339,7 @@ int main() {
               ]}
             />
           </CardDouble>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="SELECT">
@@ -1291,6 +1357,7 @@ int main() {
             <br />
             <Select name="favorite_deepsea_animal" options={['Giant Squid', 'Vampire Squid', 'Anglerfish', 'Goblin Shark', 'Fangtooth Fish', 'Dumbo Octopus', 'Frilled Shark', 'Blobfish', 'Barreleye Fish', 'Lanternfish', 'Viperfish', 'Gulper Eel', 'Sea Spider', 'Dragonfish', 'Cookiecutter Shark', 'Hagfish', 'Chimaera', 'Deep Sea Octopus', 'Sea Pig', 'Sea Cucumber']} defaultValue="Giant Squid" placeholder="Select your favorite deep sea creature..." />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="SIDEBAR LAYOUT">
@@ -1313,6 +1380,7 @@ int main() {
               “I do think the idea that basic cooking skills are a virtue, that the ability to feed yourself and a few others with proficiency should be taught to every young man and woman as a fundamental skill, should become as vital to growing up as learning to wipe one’s own ass, cross the street by oneself, or be trusted with money.”
             </SidebarLayout>
           </CardDouble>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="SLIDER">
@@ -1326,6 +1394,7 @@ int main() {
             <NumberRangeSlider defaultValue={0} min={0} max={20000} step={1} />
             <NumberRangeSlider defaultValue={0} min={0} max={100000} step={1} />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="Table">
@@ -1396,6 +1465,7 @@ int main() {
               </TableRow>
             </Table>
           </CardDouble>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="TEXT AREA">
@@ -1417,6 +1487,7 @@ int main() {
           <Card title="AUTO PLAY SLOW">
             <TextArea autoPlay="All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good. It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you." autoPlaySpeedMS={100} isBlink />
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="TOOLTIP">
@@ -1449,6 +1520,7 @@ int main() {
               </HoverComponentTrigger>
             </RowSpaceBetween>
           </Card>
+          <br />
         </Accordion>
 
         <Accordion defaultValue={true} title="TREEVIEW">
@@ -1518,6 +1590,7 @@ int main() {
               </TreeView>
             </TreeView>
           </Card>
+          <br />
         </Accordion>
       </Grid>
 
