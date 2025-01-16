@@ -132,7 +132,18 @@ export const CHESSBOARD_BAD_BISHOP: string[][] = [
   ['R', ' ', ' ', ' ', 'K', ' ', ' ', 'R'],
 ];
 
-export const CHESSBOARD_PRE_CHECKMATE: string[][] = [
+export const CHESSBOARD_CHECKMATE_STEP_ONE: string[][] = [
+  [' ', ' ', ' ', '', ' ', 'r', ' ', 'r'],
+  ['p', 'b', ' ', 'n', ' ', 'p', ' ', 'k'],
+  ['', 'q', '', 'N', 'p', '', '', ''],
+  ['', 'p', 'p', 'n', 'P', '', 'Q', ''],
+  ['', 'b', 'p', 'P', 'B', '', '', ''],
+  ['', '', '', '', '', '', '', ''],
+  ['P', 'P', ' ', ' ', ' ', 'P', 'P', 'P'],
+  ['R', ' ', ' ', ' ', ' ', 'R', 'K', ''],
+];
+
+export const CHESSBOARD_CHECKMATE_STEP_TWO: string[][] = [
   [' ', ' ', ' ', '', ' ', 'r', ' ', 'r'],
   ['p', 'b', ' ', 'n', ' ', ' ', ' ', 'k'],
   ['', 'q', '', 'N', 'p', '', '', ''],
@@ -143,7 +154,7 @@ export const CHESSBOARD_PRE_CHECKMATE: string[][] = [
   ['R', ' ', ' ', ' ', ' ', 'R', 'K', ''],
 ];
 
-export const CHESSBOARD_CHECKMATE: string[][] = [
+export const CHESSBOARD_CHECKMATE_STEP_THREE: string[][] = [
   [' ', ' ', ' ', '', ' ', 'r', ' ', 'r'],
   ['p', 'b', ' ', 'n', ' ', ' ', ' ', 'k'],
   ['', 'q', '', 'N', 'p', 'P', '', ''],

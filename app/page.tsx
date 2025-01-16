@@ -594,9 +594,11 @@ export default async function Page(props) {
             <br />
             <br />
             <Card title="EN PASSANT">
-              <Chessboard board={Constants.CHESSBOARD_PRE_CHECKMATE} />
+              <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_ONE} />
               &nbsp;
-              <Chessboard board={Constants.CHESSBOARD_CHECKMATE} />
+              <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_TWO} />
+              &nbsp;
+              <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_THREE} />
             </Card>
           </Accordion>
           <br />
