@@ -216,6 +216,11 @@ const DefaultActionBar: React.FC<DefaultActionBarProps> = ({ items = [] }) => {
                 children: 'Neon Green Garden',
                 onClick: () => Utilities.onHandleThemeChange('theme-green'),
               },
+              {
+                icon: '⊹',
+                children: 'Kirkland Signature Console',
+                onClick: () => Utilities.onHandleThemeChange('theme-black-green'),
+              },
             ],
           },
           {
