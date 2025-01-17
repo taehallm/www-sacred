@@ -10,6 +10,7 @@ import ActionBar from '@components/ActionBar';
 import ActionButton from '@components/ActionButton';
 import ActionListItem from '@components/ActionListItem';
 import AlertBanner from '@components/AlertBanner';
+import AS400 from '@components/examples/AS400';
 import Avatar from '@components/Avatar';
 import Badge from '@components/Badge';
 import BarLoader from '@components/BarLoader';
@@ -180,7 +181,7 @@ export default async function Page(props) {
           <br />
           <br />
           <Card title="EXAMPLE">
-            <Accordion defaultValue={true} title="ACCORDION EXAMPLE">
+            <Accordion defaultValue={false} title="ACCORDION EXAMPLE">
               There are two visions of America a half century from now. One is of a society more divided between the haves and the have-nots, a country in which the rich live in gated communities, send their children to expensive schools, and have access to first-rate medical care. Meanwhile, the rest live in a world marked by insecurity, at best mediocre education, and in effect rationed health care―they hope and pray they don't get seriously sick. At the bottom are millions of young people alienated and without hope. I have seen that picture in many developing countries; economists have given it a name, a dual economy, two societies living side by side, but hardly knowing each other, hardly imagining what life is like for the other. Whether we will fall to the depths of some countries, where the gates grow higher and the societies split farther and farther apart, I do not know. It is, however, the nightmare towards which we are slowly marching.
             </Accordion>
           </Card>
@@ -225,6 +226,14 @@ export default async function Page(props) {
           <Card title="EXAMPLE">
             <AlertBanner>When things reach the extreme, they alternate to the opposite.</AlertBanner>
           </Card>
+          <br />
+        </Accordion>
+
+        <Accordion defaultValue={true} title="APPLICATION SYSTEM/400 EXAMPLE">
+          The Application System 400 (AS/400) is a line of servers and network adapters from IBM that was designed to help businesses manage their data, applications, and systems infrastructure. This usage example is a tribute to the interfaces those servers had.
+          <br />
+          <br />
+          <AS400 />
           <br />
         </Accordion>
 

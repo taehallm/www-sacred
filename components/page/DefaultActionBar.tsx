@@ -218,7 +218,7 @@ const DefaultActionBar: React.FC<DefaultActionBarProps> = ({ items = [] }) => {
               },
               {
                 icon: '⊹',
-                children: 'Kirkland Signature Console',
+                children: 'Kirkland Signature AS/400',
                 onClick: () => Utilities.onHandleThemeChange('theme-black-green'),
               },
             ],

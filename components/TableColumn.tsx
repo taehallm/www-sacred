@@ -4,11 +4,11 @@ import styles from '@components/TableColumn.module.scss';
 
 import * as React from 'react';
 
-type TableColumnProps = React.HTMLAttributes<HTMLElement> & {
+type TableColumnProps = React.HTMLAttributes<HTMLTableCellElement> & {
   children?: React.ReactNode;
 };
 
-const TableColumn = ({ children, ...rest }) => {
+const TableColumn: React.FC<TableColumnProps> = ({ children, ...rest }) => {
   return (
     <td className={styles.root} {...rest}>
       {children}
