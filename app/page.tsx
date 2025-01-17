@@ -19,8 +19,6 @@ import BlockLoader from '@components/BlockLoader';
 import Breadcrumbs from '@components/BreadCrumbs';
 import Button from '@components/Button';
 import ButtonGroup from '@components/ButtonGroup';
-import CanvasPlatformer from '@components/CanvasPlatformer';
-import CanvasSnake from '@components/CanvasSnake';
 import Card from '@components/Card';
 import CardDouble from '@components/CardDouble';
 import Checkbox from '@components/Checkbox';
@@ -45,14 +43,16 @@ import Indent from '@components/Indent';
 import Input from '@components/Input';
 import IntDevLogo from '@components/svg/IntDevLogo';
 import ListItem from '@components/ListItem';
-import MatrixLoader from '@components/MatrixLoader';
 import Message from '@components/Message';
 import MessageViewer from '@components/MessageViewer';
 import MessagesInterface from '@components/examples/MessagesInterface';
 import ModalAlert from '@components/modals/ModalAlert';
+import ModalCanvasSnake from '@components/modals/ModalCanvasSnake';
+import ModalCanvasPlatformer from '@components/modals/ModalCanvasPlatformer';
 import ModalChess from '@components/modals/ModalChess';
 import ModalCreateAccount from '@components/modals/ModalCreateAccount';
 import ModalError from '@components/modals/ModalError';
+import ModalMatrixModes from '@components/modals/ModalMatrixModes';
 import ModalStack from '@components/ModalStack';
 import ModalTrigger from '@components/ModalTrigger';
 import Navigation from '@components/Navigation';
@@ -494,26 +494,6 @@ export default async function Page(props) {
           <br />
         </Accordion>
 
-        <Accordion defaultValue={false} title="CANVAS PLATFORMER">
-          This canvas component provides a basic starting point for building a 2D platform game directly on a canvas element. It currently supports simple character jumping and rudimentary collision detection, making it easy to set up a foundational scene.
-          <br />
-          <br />
-          <Card title="EXAMPLE">
-            <CanvasPlatformer rows={12} />
-          </Card>
-          <br />
-        </Accordion>
-
-        <Accordion defaultValue={false} title="CANVAS SNAKE">
-          This canvas component provides a simple demo of the classic Snake game. It includes basic mechanics like movement and growth, while also demonstrating how to freeze the game state when the canvas loses focus, ensuring a smooth user experience.
-          <br />
-          <br />
-          <Card title="EXAMPLE">
-            <CanvasSnake rows={12} />
-          </Card>
-          <br />
-        </Accordion>
-
         <Accordion defaultValue={true} title="CARDS">
           Cards are MS-DOS–inspired sections designed to group related content and actions. They can serve as standalone features or function as part of a larger application. Each card clearly outlines key information, making it easier for users to identify and interact with important details.
           <br />
@@ -594,11 +574,13 @@ export default async function Page(props) {
             <br />
             <br />
             <Card title="EN PASSANT">
-              <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_ONE} />
-              &nbsp;
-              <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_TWO} />
-              &nbsp;
-              <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_THREE} />
+              <Row style={{ whiteSpace: 'nowrap' }}>
+                <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_ONE} />
+                &nbsp;
+                <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_TWO} />
+                &nbsp;
+                <Chessboard board={Constants.CHESSBOARD_CHECKMATE_STEP_THREE} />
+              </Row>
             </Card>
           </Accordion>
           <br />
@@ -693,7 +675,9 @@ int main() {
           <br />
           <br />
           <Card>
-            <DashboardRadar />
+            <Row style={{ whiteSpace: 'nowrap', minWidth: '70ch' }}>
+              <DashboardRadar />
+            </Row>
           </Card>
           <br />
         </Accordion>
@@ -1059,24 +1043,38 @@ int main() {
           <br />
         </Accordion>
 
-        <Accordion defaultValue={false} title="MATRIX LOADER">
-          A Matrix Loader (screen) is a visual element that simulates the iconic green, cascading code streams featured in the Matrix films. These screens often serve as dynamic backdrops, thematic treatments, or stylized representations of complex digital data. This version fits SRCL's theming and monospace font usage.
-          <br />
-          <br />
-          <Card title="KATAKANA DEFAULT">
-            <MatrixLoader rows={32} mode="katakana" />
-          </Card>
-          <Card title="GREEK LTR">
-            <MatrixLoader direction="left-to-right" rows={8} mode="greek" />
-          </Card>
-          <br />
-        </Accordion>
-
         <Accordion defaultValue={true} title="MODAL">
           Modals are dialog boxes or popups that overlay the main content, requiring user interaction. They are used to capture inputs, display information, or focus on specific tasks without leaving the current context, often accompanied by an overlay to maintain focus
           <br />
           <br />
           <Card title="EXAMPLE">
+            <ModalTrigger
+              modal={ModalCanvasSnake}
+              modalProps={{
+                buttonText: 'GAME OVER',
+              }}
+            >
+              <ActionButton>Render Canvas Snake</ActionButton>
+            </ModalTrigger>
+
+            <ModalTrigger
+              modal={ModalCanvasPlatformer}
+              modalProps={{
+                buttonText: 'GAME OVER',
+              }}
+            >
+              <ActionButton>Render Canvas Platformer</ActionButton>
+            </ModalTrigger>
+
+            <ModalTrigger
+              modal={ModalMatrixModes}
+              modalProps={{
+                buttonText: 'CLOSE',
+              }}
+            >
+              <ActionButton>Render Modal Matrix Modes</ActionButton>
+            </ModalTrigger>
+
             <ModalTrigger
               modal={ModalChess}
               modalProps={{
@@ -1399,7 +1397,7 @@ int main() {
           <br />
         </Accordion>
 
-        <Accordion defaultValue={true} title="Table">
+        <Accordion defaultValue={true} title="TABLE">
           A simple, declarative table component designed to streamline the creation of tables in JSX. It provides greater control over the structure and layout while evoking the aesthetics of old terminal interfaces (like MS-DOS).
           <br />
           <br />
