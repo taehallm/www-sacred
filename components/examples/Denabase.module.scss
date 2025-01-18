@@ -3,6 +3,11 @@
   margin-top: calc(var(--theme-line-height-base) * 1rem);
 }
 
+.dna {
+  min-width: 71ch;
+  -webkit-text-size-adjust: 100%;
+}
+
 .tag {
   width: 3ch;
   height: calc(var(--theme-line-height-base) * 0.5rem);

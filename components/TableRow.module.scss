@@ -6,6 +6,7 @@
 
   transition: transform 0.5s ease;
   border-spacing: 0px;
+  -webkit-text-size-adjust: 100%;
 
   &:focus {
     background: var(--theme-focused-foreground);

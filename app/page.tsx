@@ -1537,7 +1537,7 @@ int main() {
           <br />
           <br />
           <Card title="FILE SYSTEM">
-            <TreeView defaultValue={true} isRoot title="Animal Kingdom">
+            <TreeView defaultValue={true} isRoot title="Animal Kingdom" style={{ minWidth: '71ch' }}>
               <TreeView defaultValue={true} title="Chordata">
                 <TreeView defaultValue={true} title="Mammalia">
                   <TreeView defaultValue={true} title="Primates">

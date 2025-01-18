@@ -15,13 +15,13 @@ const Denabase = (props) => {
   return (
     <>
       <Card style={{ overflowWrap: 'break-word' }}>
-        <Row style={{ minWidth: '70ch' }}>
+        <Row>
           <RowSpaceBetween>
             <ActionButton>TR5342120027455925897981</ActionButton>
             <ActionButton>02.14.2021</ActionButton>
           </RowSpaceBetween>
           <Divider type="GRADIENT" />
-          <div style={{ flexShrink: 0 }}>
+          <div className={styles.dna}>
             T-CA-AA-AA-TA-TC-GG-GC-AC-AT-TA-TT-TA-TT-TG-CC-GC-TC-GG-GA-AG-TA-GA-A
             <br />
             A-TG-GT-AC-AT-GT-GT-TT-TA-TG-AT-TT-CT-CG-CA-GT-GA-AA-AA-GC-AA-CG-AA-C
