@@ -131,7 +131,7 @@ export default async function Page(props) {
       <br />
       <Grid>
         <Row>
-          {Package.name.toUpperCase()} <Badge>Version {Package.version}</Badge>
+          {Package.name.toUpperCase()} <Badge>{Package.version}</Badge>
         </Row>
         <Row>{Package.description}</Row>
       </Grid>
