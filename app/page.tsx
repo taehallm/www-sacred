@@ -243,7 +243,7 @@ export default async function Page(props) {
           <br />
           <Card title="EXAMPLE">
             <Avatar src="https://pbs.twimg.com/profile_images/1818030201051430918/M6kSNje3_400x400.jpg" href="https://internet.dev" target="_blank" />
-            <Avatar src="https://pbs.twimg.com/profile_images/1768438338841890816/taF_Uvqu_400x400.jpg" href="https://internet.dev" target="_blank" />
+            <Avatar src="https://pbs.twimg.com/profile_images/1880540584588570624/4LQlAZ0q_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1748647089633169408/B7vd7ito_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1778697935544627200/1LvOcE-F_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1841883108305731585/3rhRm7aY_400x400.jpg" href="https://internet.dev" target="_blank" />
