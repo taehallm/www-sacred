@@ -72,6 +72,7 @@ import Text from '@components/Text';
 import TextArea from '@components/TextArea';
 import TreeView from '@components/TreeView';
 import UpdatingDataTable from '@components/examples/UpdatingDataTable';
+import ModalDOMSnake from '@root/components/modals/ModalDOMSnake';
 
 export const dynamic = 'force-static';
 
@@ -1064,6 +1065,15 @@ int main() {
               }}
             >
               <ActionButton>Render Canvas Snake</ActionButton>
+            </ModalTrigger>
+
+            <ModalTrigger
+              modal={ModalDOMSnake}
+              modalProps={{
+                buttonText: 'GAME OVER',
+              }}
+            >
+              <ActionButton>Render DOM Snake</ActionButton>
             </ModalTrigger>
 
             <ModalTrigger
