@@ -286,11 +286,11 @@ export default async function Page(props) {
                 Webmaster
               </Indent>
             </Avatar>
-            <Avatar src="https://pbs.twimg.com/profile_images/1880540584588570624/4LQlAZ0q_400x400.jpg" href="https://internet.dev" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1887053356449062915/EGdkFMF4_400x400.jpg" href="https://internet.dev" target="_blank">
               <Indent>
                 JIMMY LEE
                 <br />
-                Janitor
+                Staff Janitor
               </Indent>
             </Avatar>
           </Card>
