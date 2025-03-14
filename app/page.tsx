@@ -243,50 +243,50 @@ export default async function Page(props) {
           <br />
           <br />
           <Card title="EXAMPLE">
-            <Avatar src="https://pbs.twimg.com/profile_images/1818030201051430918/M6kSNje3_400x400.jpg" href="https://internet.dev" target="_blank" />
-            <Avatar src="https://pbs.twimg.com/profile_images/1880540584588570624/4LQlAZ0q_400x400.jpg" href="https://internet.dev" target="_blank" />
+            <Avatar src="https://pbs.twimg.com/profile_images/1892435035430801409/ExonBPYi_400x400.jpg" href="https://internet.dev" target="_blank" />
+            <Avatar src="https://pbs.twimg.com/profile_images/1893001029421015040/Giy-FV6B_400x400.jpg" href="https://internet.dev" target="_blank" />
+            <Avatar src="https://pbs.twimg.com/profile_images/1890125319224598528/ZILr9OGp_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1748647089633169408/B7vd7ito_400x400.jpg" href="https://internet.dev" target="_blank" />
-            <Avatar src="https://pbs.twimg.com/profile_images/1778697935544627200/1LvOcE-F_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1841883108305731585/3rhRm7aY_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://avatars.githubusercontent.com/u/10610892?v=4" href="https://internet.dev" target="_blank" />
             <br />
             <br />
-            <Avatar src="https://pbs.twimg.com/profile_images/1818030201051430918/M6kSNje3_400x400.jpg" href="https://internet.dev" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1892435035430801409/ExonBPYi_400x400.jpg" href="https://x.com/aalimbuyuguen" target="_blank">
               <Indent>
                 ANDREW ALIMBUYUGUEN
                 <br />
                 Webmaster
               </Indent>
             </Avatar>
-            <Avatar src="https://pbs.twimg.com/profile_images/1748647089633169408/B7vd7ito_400x400.jpg" href="https://internet.dev" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1748647089633169408/B7vd7ito_400x400.jpg" href="https://x.com/ana_piligrim" target="_blank">
               <Indent>
                 ANASTASIYA URALEVA
                 <br />
                 Webmaster
               </Indent>
             </Avatar>
-            <Avatar src="https://pbs.twimg.com/profile_images/1778697935544627200/1LvOcE-F_400x400.jpg" href="https://internet.dev" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1890125319224598528/ZILr9OGp_400x400.jpg" href="https://x.com/elijaharita" target="_blank">
               <Indent>
                 ELIJAH SEED ARITA
                 <br />
                 Webmaster
               </Indent>
             </Avatar>
-            <Avatar src="https://pbs.twimg.com/profile_images/1841883108305731585/3rhRm7aY_400x400.jpg" href="https://internet.dev" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1841883108305731585/3rhRm7aY_400x400.jpg" href="https://x.com/xbalbinus" target="_blank">
               <Indent>
                 XIANGAN HE
                 <br />
                 Webmaster
               </Indent>
             </Avatar>
-            <Avatar src="https://avatars.githubusercontent.com/u/10610892?v=4" href="https://internet.dev" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1885454100223188993/6HXdKp9n_400x400.jpg" href="https://x.com/binary_fiddler" target="_blank">
               <Indent>
                 CHENYU HUANG
                 <br />
                 Webmaster
               </Indent>
             </Avatar>
-            <Avatar src="https://pbs.twimg.com/profile_images/1887053356449062915/EGdkFMF4_400x400.jpg" href="https://internet.dev" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1893001029421015040/Giy-FV6B_400x400.jpg" href="https://x.com/wwwjim" target="_blank">
               <Indent>
                 JIMMY LEE
                 <br />
