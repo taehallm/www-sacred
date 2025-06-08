@@ -97,7 +97,7 @@ export async function generateMetadata({ params, searchParams }) {
       ],
       shortcut: '/favicon-16x16.png',
     },
-    metadataBase: new URL('https://wireframes.internet.dev'),
+    metadataBase: new URL('https://sacred.computer'),
     openGraph: {
       description,
       images: [
@@ -244,7 +244,7 @@ export default async function Page(props) {
           <br />
           <Card title="EXAMPLE">
             <Avatar src="https://pbs.twimg.com/profile_images/1892435035430801409/ExonBPYi_400x400.jpg" href="https://internet.dev" target="_blank" />
-            <Avatar src="https://pbs.twimg.com/profile_images/1893001029421015040/Giy-FV6B_400x400.jpg" href="https://internet.dev" target="_blank" />
+            <Avatar src="https://pbs.twimg.com/profile_images/1925213285663805441/fUiKWlj2_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1890125319224598528/ZILr9OGp_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1748647089633169408/B7vd7ito_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1841883108305731585/3rhRm7aY_400x400.jpg" href="https://internet.dev" target="_blank" />
@@ -286,7 +286,7 @@ export default async function Page(props) {
                 Webmaster
               </Indent>
             </Avatar>
-            <Avatar src="https://pbs.twimg.com/profile_images/1893001029421015040/Giy-FV6B_400x400.jpg" href="https://x.com/wwwjim" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1925213285663805441/fUiKWlj2_400x400.jpg" href="https://x.com/wwwjim" target="_blank">
               <Indent>
                 JIMMY LEE
                 <br />
