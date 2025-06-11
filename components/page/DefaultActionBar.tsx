@@ -171,7 +171,7 @@ const DefaultActionBar: React.FC<DefaultActionBarProps> = ({ items = [] }) => {
               },
               {
                 icon: '⊹',
-                children: 'Server Mono 0.0.6 [OFL]',
+                children: 'Server Mono 0.0.7 [OFL]',
                 onClick: () => Utilities.onHandleFontChange('font-use-server-mono'),
               },
               {
