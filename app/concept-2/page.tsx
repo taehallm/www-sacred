@@ -15,7 +15,7 @@ export const dynamic = 'force-static';
 // NOTE(jimmylee)
 // https://nextjs.org/docs/app/api-reference/functions/generate-metadata
 export async function generateMetadata({ params, searchParams }) {
-  const title = `${Package.name}: Concept I`;
+  const title = `${Package.name}: Concept II`;
   const description = Package.description;
   const url = 'https://sacred.computer/conept-2';
   const handle = '@internetxstudio';

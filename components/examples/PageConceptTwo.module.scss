@@ -50,6 +50,10 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 960px) {
+    display: block;
+  }
 }
 
 .left {
@@ -70,9 +74,17 @@
 .col {
   width: 20%;
   padding: calc(var(--theme-line-height-base) * 1rem) 2ch calc(var(--theme-line-height-base) * 1rem) 2ch;
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
 }
 
 .col3 {
   width: 60%;
   padding: calc(var(--theme-line-height-base) * 1rem) 2ch calc(var(--theme-line-height-base) * 1rem) 2ch;
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
 }

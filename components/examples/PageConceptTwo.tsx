@@ -118,6 +118,8 @@ const PageConceptTwo = (props) => {
                 ['DATA 23', 'DATA 24'],
                 ['DATA 25', 'DATA 26'],
                 ['DATA 27', 'DATA 28'],
+                ['DATA 29', 'DATA 30'],
+                ['DATA 31', 'DATA 32'],
               ]}
             />
           </Card>
@@ -154,6 +156,8 @@ const PageConceptTwo = (props) => {
                 ['DATA 23', 'DATA 24'],
                 ['DATA 25', 'DATA 26'],
                 ['DATA 27', 'DATA 28'],
+                ['DATA 29', 'DATA 30'],
+                ['DATA 31', 'DATA 32'],
               ]}
             />
           </Card>
