@@ -40,9 +40,9 @@
 
 @font-face {
   font-family: 'ServerMono';
-  src: url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/25071f6e-4cc8-4f91-8387-e4c60b9231de.woff2') format('woff2'),
-       url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/2bddcba4-a541-4af6-b4b6-5dfb1e4875f5.woff') format('woff'),
-       url('https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/45c36a19-7078-4880-89a5-2c700a28070a.otf') format('opentype');
+  src: url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-Regular.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-Regular.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/internet-development/www-server-mono@latest/public/fonts/ServerMono-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
