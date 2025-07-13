@@ -272,9 +272,9 @@ export default async function Page(props) {
                 Webmaster
               </Indent>
             </Avatar>
-            <Avatar src="https://pbs.twimg.com/profile_images/1841883108305731585/3rhRm7aY_400x400.jpg" href="https://x.com/xbalbinus" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1919579065444663300/cxCRW91y_400x400.jpg" href="https://x.com/caidanwilliams" target="_blank">
               <Indent>
-                XIANGAN HE
+                CAIDAN WILLIAMS
                 <br />
                 Webmaster
               </Indent>
