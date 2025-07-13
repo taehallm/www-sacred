@@ -243,7 +243,7 @@ export default async function Page(props) {
           <br />
           <br />
           <Card title="EXAMPLE">
-            <Avatar src="https://pbs.twimg.com/profile_images/1892435035430801409/ExonBPYi_400x400.jpg" href="https://internet.dev" target="_blank" />
+            <Avatar src="https://pbs.twimg.com/profile_images/1934755236364865537/OxJve4Jp_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1925213285663805441/fUiKWlj2_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1890125319224598528/ZILr9OGp_400x400.jpg" href="https://internet.dev" target="_blank" />
             <Avatar src="https://pbs.twimg.com/profile_images/1748647089633169408/B7vd7ito_400x400.jpg" href="https://internet.dev" target="_blank" />
@@ -251,7 +251,7 @@ export default async function Page(props) {
             <Avatar src="https://avatars.githubusercontent.com/u/10610892?v=4" href="https://internet.dev" target="_blank" />
             <br />
             <br />
-            <Avatar src="https://pbs.twimg.com/profile_images/1892435035430801409/ExonBPYi_400x400.jpg" href="https://x.com/aalimbuyuguen" target="_blank">
+            <Avatar src="https://pbs.twimg.com/profile_images/1934755236364865537/OxJve4Jp_400x400.jpg" href="https://x.com/aalimbuyuguen" target="_blank">
               <Indent>
                 ANDREW ALIMBUYUGUEN
                 <br />
