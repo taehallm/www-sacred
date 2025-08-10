@@ -90,6 +90,11 @@ function DropdownMenuTrigger({ children, items, hotkey }: DropdownMenuTriggerPro
     };
   }, [open]);
 
+  // Handle lazy-loaded components - this is the key fix
+  if (!children || children.type === undefined || children._payload) {
+    return <div>Loading...</div>;
+  }
+
   const element = open
     ? createPortal(
         <OutsideElementEvent onOutsideEvent={onOutsideEvent}>
