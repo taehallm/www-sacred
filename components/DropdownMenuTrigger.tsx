@@ -91,8 +91,8 @@ function DropdownMenuTrigger({ children, items, hotkey }: DropdownMenuTriggerPro
   }, [open]);
 
   // Handle lazy-loaded components - this is the key fix
-  if (!children || children.type === undefined || children._payload) {
-    return <div>Loading...</div>;
+  if (!children || children.type === undefined || (children as any)._payload) {
+    return null;
   }
 
   const element = open
